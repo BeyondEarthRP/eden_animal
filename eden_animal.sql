@@ -5,7 +5,7 @@ INSERT INTO `shops` (`store`, `item`, `price`) VALUES
 ;
 
 INSERT INTO `items` (`name`, `label`, `limit`) VALUES
-	('croquettes', 'Croquettes', 20)
+	('croquettes', 'Pet Food', 20)
 ;
 
 ALTER TABLE `users` ADD COLUMN `pet` VARCHAR(50) NOT NULL;
